@@ -1,21 +1,41 @@
-.logo {
-    background: left / cover url('/media/examples/puppy-header-logo.jpg');
-    display: flex;
-    height: 120px;
-    align-items: center;
-    justify-content: center;
-    font:
-      bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script',
-      fantasy;
-    color: #ff0083;
-    text-shadow: #000 2px 2px 0.2rem;
-  }
-  
-  header > h1 {
-    margin-bottom: 0;
-  }
-  
-  header > time {
-    font: italic 0.7rem sans-serif;
-  }
-  
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #334037;
+  color: #d8cccc;
+  padding: 1px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 25px;
+}
+
+nav ul li a {
+  color: #d4c4c4;
+  text-decoration: none;
+}
+
+main {
+  padding: 1px;
+}
+
+footer {
+  background-color: #334037;
+  color: #ffffff;
+  padding: 1px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
